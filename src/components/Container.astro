@@ -7,8 +7,17 @@
 
 <style>
   .container {
-    margin: 0 auto;
-    max-width: var(--container-width, 960px);
-    padding: 0 var(--container-padding, 1rem);
+    min-width: 100vw;
+    /* margin: 0 auto; */
+  }
+  @media (min-width: 1281px) {
+    /* hi-res laptops and desktops */
+
+    .container {
+      min-width: 100%;
+
+      /* max-width: var(--container-width, 960px); */
+      padding: 0 var(--container-padding);
+    }
   }
 </style>

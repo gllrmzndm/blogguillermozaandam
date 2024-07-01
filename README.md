@@ -44,3 +44,26 @@ npm run build
 Navigate to `src/data/site.js` and edit to match your site's information.
 
 Start writing new blog posts in Markdown at `src/pages/blog/`
+
+##
+
+- Tailwind
+- Astro formatting on Astro files
+- DaisyUI
+
+###
+
+https://github.com/ota-meshi/eslint-plugin-astro
+
+###
+
+```
+  "scripts": {
+    "dev": "astro dev --host",
+    "start": "astro dev",
+    "build": "astro build",
+    "format": "npx prettier --write ."
+  },
+```
+
+`npx astro add astro-tunnel`

@@ -3,6 +3,7 @@ import Layout from '../../layouts/Base.astro'
 import Container from '../../components/Container.astro';
 import BlogPostPreview from '../../components/BlogPostPreview.astro';
 import Paginator from '../../components/Paginator.astro'
+import Navbar from "../../components/Navbar.astro";
   
   
 export async function getStaticPaths({paginate}) {
@@ -40,7 +41,8 @@ const { page } = Astro.props;
 
 <Layout seo={seo} >
   <Container>
-    <article class="blog-page-content__article">
+    <Navbar />
+    <article class="blog-page-content__article border-2 border-slate-400">
       <section class="postlist">
         {page.data.map((post) => <BlogPostPreview post={post} />)}
       </section>
