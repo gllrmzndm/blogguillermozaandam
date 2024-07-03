@@ -2,12 +2,27 @@
 
 # What to do
 
-- [ ] General Functions
-- [ ] About page
-- [ ] Blog page
+- Excellent SEO Built In
+  Open Graph Tags (Twitter, Facebook, etc.)
+  User Declared Canonical URLs
+  RSS Feed
+  XML Sitemap
+  Robots.txt
+  JSON LD Schema
+  Markdown based blog posts with featured images
+  Extremely minimal styles
+  Performant Google Fonts Setup
+
+- [x] General Functions
+- [x] About page
+- [x] Blog page
 - [x] Functions showing 3 or 5 titles and small quote/description
-- [ ] CMS Ready?
-- [ ] SEO
+- [x] XML Sitemap (because it isn't there? https://docs.astro.build/en/guides/integrations-guide/sitemap/)
+- [x] Navigate to src/data/site.js and edit to match your site's information.
+- [ ] Favicon
+- [ ] CMS Ready (https://tina.io/)
+- [x] SEO (already built-in)
+- [ ] Google Analytics  
 - [ ] Social cards
 - [ ] Adjust musicplayer
 - [ ] RSS feed
