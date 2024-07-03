@@ -10,7 +10,9 @@ import rehypeAutolinkHeadings from "rehype-autolink-headings";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://astro-minimal-starter.netlify.app/",
+  site: "https://gllrmzndm.github.io",
+  base: "blogguillermozaandam",
+
   integrations: [mdx(), sitemap(), tailwind()],
   markdown: {
     remarkPlugins: [[remarkToc, { heading: "contents" }]],
