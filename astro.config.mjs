@@ -11,11 +11,13 @@ import rehypeAutolinkHeadings from "rehype-autolink-headings";
 // https://astro.build/config
 export default defineConfig({
   site: "https://gllrmzndm.github.io",
-  base: "blogguillermozaandam",
+  base: "",
 
   integrations: [mdx(), sitemap(), tailwind()],
   markdown: {
-    remarkPlugins: [[remarkToc, { heading: "contents" }]],
+    remarkPlugins: [
+      [remarkToc, { heading: "(table[ -]of[ -])?contents?|toc", maxDepth: 3 }],
+    ],
     rehypePlugins: [
       rehypeSlug,
       [rehypeAutolinkHeadings, { behavior: "append" }],
