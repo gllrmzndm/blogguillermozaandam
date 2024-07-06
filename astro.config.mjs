@@ -7,13 +7,14 @@ import remarkToc from "remark-toc";
 import rehypeSlug from "rehype-slug";
 import { rehypeHeadingIds } from "@astrojs/markdown-remark";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
+import { astroImageTools } from "astro-imagetools";
 
 // https://astro.build/config
 export default defineConfig({
   site: "https://gllrmzndm.github.io",
   base: "",
 
-  integrations: [mdx(), sitemap(), tailwind()],
+  integrations: [mdx(), sitemap(), tailwind(), [astroImageTools]],
   markdown: {
     remarkPlugins: [
       [remarkToc, { heading: "(table[ -]of[ -])?contents?|toc", maxDepth: 3 }],

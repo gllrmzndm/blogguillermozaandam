@@ -11,6 +11,7 @@
   "devDependencies": {
     "@astrojs/sitemap": "^3.1.6",
     "@astrojs/tailwind": "^5.1.0",
+    "@tailwindcss/typography": "^0.5.13",
     "@typescript-eslint/parser": "^7.13.1",
     "astro": "^4.11.4",
     "daisyui": "^4.12.6",
@@ -20,6 +21,7 @@
   },
   "dependencies": {
     "@astrojs/mdx": "^3.1.2",
+    "astro-imagetools": "^0.9.0",
     "mdast-util-toc": "^7.1.0",
     "rehype-autolink-headings": "^7.1.0",
     "rehype-slug": "^6.0.0",
