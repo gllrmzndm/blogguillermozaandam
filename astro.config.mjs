@@ -12,6 +12,7 @@ import { astroImageTools } from "astro-imagetools";
 // https://astro.build/config
 export default defineConfig({
   site: "https://gllrmzndm.github.io",
+  base: "",
 
   image: {
     domains: ["astro.build"],
