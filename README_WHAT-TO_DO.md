@@ -25,6 +25,7 @@
 - [ ] CMS Ready (https://tina.io/)
 - [x] SEO (already built-in)
 - [ ] Image optimization (https://astro-imagetools-docs.vercel.app/en/usage)
+- [ ] Remode image for musicplayer (Vehicle audio)
 - [ ] Google Analytics
 - [ ] Social cards (https://github.com/jonasmerlin/astro-seo) (https://docs.dummyapi.online/guides/astro-social-cards/)
 - [x] RSS feed

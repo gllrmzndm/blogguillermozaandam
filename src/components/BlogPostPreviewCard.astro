@@ -4,7 +4,7 @@ const posts = await Astro.glob('../pages/blog/*.md'); // returns an array of pos
 ---
 
 <div class="flex w-full flex-col rounded-box bg-gradient-to-r from-purple-600 via-blue-600 to-pink-600 ">
-  <div class="card rounded-box grid h-auto place-items-center overflow-hidden text-white hover:bg-purple-800 duration-1000">
+  <div class="card rounded-box grid h-24 place-items-center overflow-hidden text-white hover:bg-purple-800 duration-1000">
     <div class="grid grid-cols-3 gap-4 mx-6">
       {posts.slice(0, 3).map((post) => (
   <article>

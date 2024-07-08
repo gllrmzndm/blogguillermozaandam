@@ -12,7 +12,12 @@ import { astroImageTools } from "astro-imagetools";
 // https://astro.build/config
 export default defineConfig({
   site: "https://gllrmzndm.github.io",
-  base: "",
+  base: "https://gllrmzndm.github.io",
+
+  image: {
+    domains: ["astro.build"],
+    remotePatterns: [{ protocol: "https" }],
+  },
 
   integrations: [mdx(), sitemap(), tailwind(), [astroImageTools]],
   markdown: {
