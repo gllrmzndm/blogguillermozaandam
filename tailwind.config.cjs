@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        herobackgroundimage: "url('./public/assets/tim.jpg')",
+        herobackgroundimage: "url('./public/assets/nav_hero.jpg')",
       },
     },
   },
