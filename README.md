@@ -16,6 +16,7 @@
   Performant Google Fonts Setup
   Remark (Table of contents)
   Astro-imagetools
+  Build
 
 - [x] General Functions
 - [x] About page
