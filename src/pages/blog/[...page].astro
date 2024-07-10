@@ -42,7 +42,7 @@ const { page, headings } = Astro.props;
 <Layout seo={seo} >
   <Container>
     <Navbar />
-    <article class="blog-page-content__article border-2 border-slate-400">
+    <article class="blog-page-content__article">
       <section class="postlist">
         {page.data.map((post) => <BlogPostPreview post={post} />)}
       </section>

@@ -9,6 +9,8 @@ const { frontmatter } = Astro.props;
 
 ---
 
+<!-- post itself not the index page -->
+
 <Layout seo={frontmatter}>
   <Fragment slot="head-bottom">
   <ArticleSchema {...frontmatter}  />

@@ -6,6 +6,11 @@ module.exports = {
       backgroundImage: {
         herobackgroundimage: "url('/assets/nav_hero.jpg')",
       },
+      transitionDuration: {
+        2000: "2000ms",
+        3000: "3000ms",
+        4000: "4000ms",
+      },
     },
   },
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
