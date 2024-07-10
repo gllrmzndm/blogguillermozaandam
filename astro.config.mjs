@@ -28,15 +28,16 @@ export default defineConfig({
       rehypeSlug,
       [rehypeAutolinkHeadings, { behavior: "append" }],
     ],
+    syntaxHighlight: "shiki",
     shikiConfig: {
       // Choose from Shiki's built-in themes (or add your own)
       // https://shiki.style/themes
-      theme: "material-theme-darker",
+      // theme: "",
       // Alternatively, provide multiple themes
       // See note below for using dual light/dark themes
       themes: {
-        light: "material-theme",
-        dark: "material-theme",
+        light: "catppuccin-latte",
+        dark: "dracula",
       },
       // Add custom languages
       // Note: Shiki has countless langs built-in, including .astro!

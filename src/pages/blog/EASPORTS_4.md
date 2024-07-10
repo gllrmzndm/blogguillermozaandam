@@ -15,6 +15,9 @@ alt: Trees in the mountains asdasdsadasdasdasdsasdasdasdssadsadsasdsddsddddddddd
 
 How do I manage six-thousand bookmarks? To be honest, I had no clue how many bookmarks I had, since I don’t count them. I had to use an extension to figure this out on Edge and Chrome on Firefox it’s easier I think, Firefox isn’t my main main-browser right now.
 
+[text](https://arstechnica.com/gadgets/2024/07/the-galaxy-z-fold-flip-6-are-not-as-exciting-to-samsung-as-galaxy-ai/)
+https://arstechnica.com/gadgets/2024/07/the-galaxy-z-fold-flip-6-are-not-as-exciting-to-samsung-as-galaxy-ai/
+
 ## Firefox tags
 
 Back when I used Firefox as my main browser, you could tag your bookmarks with your words and separate them with commas. Other browsers don’t support this, so relying on tags isn’t an option.

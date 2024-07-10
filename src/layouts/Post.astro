@@ -23,9 +23,11 @@ const { frontmatter } = Astro.props;
       {frontmatter.image && <img width="100%" height="420" class="post-main__img rounded-box" loading="lazy" src={frontmatter.image} alt={frontmatter.alt} />}
 
       <div class="p-6">
-      <!-- frontmatter title -->
-      <h1>{frontmatter.title}</h1>
 
+      <!-- frontmatter title -->
+       <div class="text-xl font-bold">
+      <h1>{frontmatter.title}</h1>
+       </div>
       <!-- front matter publishing date -->
       <time>{frontmatter.publishDate}</time>
 
