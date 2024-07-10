@@ -17,14 +17,22 @@ const { frontmatter } = Astro.props;
  </Fragment>
   <Container>
     <Navbar />
-    <article class="post-content__article border-4 border-red-500">
-      {frontmatter.image && <img width="100%" height="420" class="post-main__img" loading="lazy" src={frontmatter.image} alt={frontmatter.alt} />}
+    <article class="post-content__article">
+      <div class="card bg-base-100 rounded-box overflow-hidden w-auto shadow-xl border-2">
+        <!-- frontmatter image -->
+      {frontmatter.image && <img width="100%" height="420" class="post-main__img rounded-box" loading="lazy" src={frontmatter.image} alt={frontmatter.alt} />}
+
+      <!-- frontmatter title -->
       <h1>{frontmatter.title}</h1>
+
+      <!-- front matter publishing date -->
       <time>{frontmatter.publishDate}</time>
-      <br>
-      <br>
+
       <!-- // Rendering markdown pages starts here at  <slot /> see: https://docs.astro.build/en/basics/layouts/#markdownmdx-layouts -->
-      <slot />
+       <div class="">
+        <slot />
+      </div>
+      </div>
     </article>
   </Container>
 </Layout>
@@ -33,7 +41,7 @@ const { frontmatter } = Astro.props;
 <style>
   article {
     > * {
-      margin-block: 1em 0;
+      margin-block: 0 0;
       margin-inline: 0;
       p {
       font-weight: 400;
@@ -49,3 +57,4 @@ const { frontmatter } = Astro.props;
     } 
     }
   }
+  </style>

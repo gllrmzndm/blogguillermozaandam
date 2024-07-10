@@ -5,17 +5,13 @@ description: Really?
 publishDate: Saturday, July 31 2021
 author: "Jaydan Urwin"
 image: "/assets/blog/example-blog/alex-bertha-7VAXeUIn3tI-unsplash.jpg"
-alt: Trees in the mountains
+alt: Trees in the mountains asdasdsadasdasdasdsasdasdasdssadsadsasdsddsdddddddddddddd
 ---
-
-# Table of content
 
 # Intro
 
-![Giulia Green](/src/images_and_videos/Giulia_Green_Front.jpeg)
-
-<video controls width="250">
-  <source src="/src/images_and_videos/uhuh.mp4" type="video/mp4" />
+<!-- <video controls width="250">
+  <source src="/src/images_and_videos/uhuh.mp4" type="video/mp4" /> -->
 
 How do I manage six-thousand bookmarks? To be honest, I had no clue how many bookmarks I had, since I don’t count them. I had to use an extension to figure this out on Edge and Chrome on Firefox it’s easier I think, Firefox isn’t my main main-browser right now.
 
@@ -29,8 +25,6 @@ I am relying on my own “tags” to quickly search my bookmarks without opening
 I’m using an extension to make it seamlessly and it’s called Vimium and it’s available for most popular browsers.
 
 ## Getting creative with tags
-
-![Giulia Green](/assets/blog/uhuh.mp4)
 
 Whenever I need to save a bookmark a website I need come up with severals words (tags) to get back whenever I need to visit the website again, in general I come up with some random words the correspond to the website itself. For example we have a website talking about The performance of NTFS on Windows. [Over here](https://github.com/Microsoft/WSL/issues/873#issuecomment-425272829)
 
@@ -118,5 +112,3 @@ That's a win in my eyes.
   </body>
 </html>
 ```
-
-!!! success "Done"
