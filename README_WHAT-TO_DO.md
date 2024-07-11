@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6aa49dbb-2dc9-4ee1-baab-5d80d4136677/deploy-status)](https://app.netlify.com/sites/astro-minimal-starter/deploys)
 
-# What to do
+# Already built-in
 
 - Excellent SEO Built In
   Open Graph Tags (Twitter, Facebook, etc.)
@@ -14,6 +14,9 @@
   Performant Google Fonts Setup
   Remark (Table of contents)
   Astro-imagetools
+  Shiki (syntax highlighter)
+
+# What to do
 
 - [x] General Functions
 - [x] About page
@@ -21,21 +24,26 @@
 - [x] Functions showing 3 or 5 titles and small quote/description
 - [x] XML Sitemap (because it isn't there? https://docs.astro.build/en/guides/integrations-guide/sitemap/)
 - [x] Navigate to src/data/site.js and edit to match your site's information.
-- [ ] Favicon
-- [ ] CMS Ready (https://tina.io/)
-- [x] SEO (already built-in)
-- [ ] Image optimization (https://astro-imagetools-docs.vercel.app/en/usage)
-- [ ] Remode image for musicplayer (Vehicle audio)
-- [ ] Google Analytics
-- [ ] Social cards (https://github.com/jonasmerlin/astro-seo) (https://docs.dummyapi.online/guides/astro-social-cards/)
 - [x] RSS feed
+- [x] Remade image for musicplayer (Vehicle audio)
+- [ ] Favicon
+- [ ] Google Analytics/Other analytics
+- [ ] Open Graph/Social cards (https://github.com/jonasmerlin/astro-seo) (https://docs.dummyapi.online/guides/astro-social-cards/) (https://github.com/shepherdjerred/astro-opengraph-images) (https://astro.build/integrations/)
+- [ ] About me
+
+- [ ] Styling (The verge style?)
+  - [x] Rounded corners
+  - [x] Small vertical gap between items (elements) on index page
+  - [x] Markdown layout
+  - [x] Adjust musicplayer
+
+Future ambitions
+
+- [x] The Verge style
+- [ ] Ubuntu fonts or somethings else (https://www.launchfa.st/features/astro-font)
 - [ ] Fuzzy search FuseJS (https://astro.build/integrations/?search=search) (https://www.fusejs.io/) example: https://github.com/satnaing/astro-paper
 - [ ] Astro embed (https://astro-embed.netlify.app/)
-- [ ] i18n translator
-- [ ] Styling (The verge style?)
-  - [ ] Rounded corners
-  - [ ] Small vertical gap between items (elements) on index page
-  - [ ] Multiple themes
-  - [ ] Markdown layout
-  - [ ] Adjust musicplayer
-  - [ ] Ubuntu fonts or somethings else (https://www.launchfa.st/features/astro-font)
+- [ ] CMS Ready (https://tina.io/)
+- [ ] Google translate (https://www.youtube.com/watch?v=iO6j3SR7U6Q) (https://github.com/yassinedoghri/astro-i18next)
+
+Source: https://github.com/treefarmstudio/astro-minimal-starter

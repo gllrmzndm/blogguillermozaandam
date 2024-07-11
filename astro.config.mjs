@@ -26,7 +26,7 @@ export default defineConfig({
     ],
     rehypePlugins: [
       rehypeSlug,
-      [rehypeAutolinkHeadings, { behavior: "append" }],
+      [rehypeAutolinkHeadings, { behavior: "prepend" }],
     ],
     syntaxHighlight: "shiki",
     shikiConfig: {
