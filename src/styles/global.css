@@ -22,3 +22,8 @@ body {
     text-decoration: var(--shiki-dark-text-decoration) !important;
   }
 }
+
+.preserve-whitespace {
+  white-space: pre-wrap;
+  /* or pre, pre-line based on your needs */
+}
