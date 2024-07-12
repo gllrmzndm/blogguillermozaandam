@@ -1,9 +1,9 @@
 ---
 const { page } = Astro.props
 ---
-<div class="pagination border-2 border-red-500">
-    {page.url.prev && <a href={page.url.prev} title="Go to Previous">&larr; Prev</a>}
-    {page.url.next && <a href={page.url.next} title="Go to Next">Next &rarr;</a>}
+<div class="pagination text-center text-white text-semibold rounded-box bg-pink-600 hover:bg-purple-800 duration-1000 dark:bg-purple-800 dark:hover:bg-pink-600 duration-1000">
+    {page.url.prev && <a href={page.url.prev} title="Go to Previous" class="w-full">&larr; Prev</a>}
+    {page.url.next && <a href={page.url.next} title="Go to Next" class="w-full">Next &rarr;</a>}
 </div>
 
 <style>

@@ -26,12 +26,13 @@
 - [x] Navigate to src/data/site.js and edit to match your site's information.
 - [x] RSS feed
 - [x] Remade image for musicplayer (Vehicle audio)
-- [ ] Favicon
+- [x] Favicon
 - [ ] Google Analytics/Other analytics
-- [ ] Open Graph/Social cards (https://github.com/jonasmerlin/astro-seo) (https://docs.dummyapi.online/guides/astro-social-cards/) (https://github.com/shepherdjerred/astro-opengraph-images) (https://astro.build/integrations/)
+- [x] Open Graph/Social cards (https://github.com/jonasmerlin/astro-seo) (https://docs.dummyapi.online/guides/astro-social-cards/) (https://github.com/shepherdjerred/astro-opengraph-images) (https://astro.build/integrations/)
 - [ ] About me
-- [ ] Pagination button
+- [ ] Home
 - [ ] Introduction
+- [ ] Pagination button
 - [ ] Update base and site Astro.config.mjs
 
 - [ ] Styling (The verge style?)
