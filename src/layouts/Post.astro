@@ -3,6 +3,7 @@ import Layout from './Base.astro';
 import Container from "../components/Container.astro";
 import ArticleSchema from '../components/ArticleSchema.astro';
 import Navbar from "../components/Navbar.astro";
+import Footercard from "../components/FooterCard.astro";
 
 const { frontmatter } = Astro.props;
 
@@ -40,6 +41,7 @@ const { frontmatter } = Astro.props;
       </div>
       </div>
     </article>
+    <Footercard />
   </Container>
 </Layout>
 
