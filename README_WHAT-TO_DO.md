@@ -27,15 +27,15 @@
 - [x] RSS feed
 - [x] Remade image for musicplayer (Vehicle audio)
 - [x] Favicon
-- [ ] Google Analytics/Other analytics
+
 - [x] Open Graph/Social cards (https://github.com/jonasmerlin/astro-seo) (https://docs.dummyapi.online/guides/astro-social-cards/) (https://github.com/shepherdjerred/astro-opengraph-images) (https://astro.build/integrations/)
-- [ ] About me
-- [ ] Home
-- [ ] Introduction
-- [ ] Pagination button
+- [x] About me
+- [x] Home
+- [x] Introduction
+- [x] Pagination button
 - [ ] Update base and site Astro.config.mjs
 
-- [ ] Styling (The verge style?)
+- [x] Styling
   - [x] Rounded corners
   - [x] Small vertical gap between items (elements) on index page
   - [x] Markdown layout
@@ -43,11 +43,13 @@
 
 Future ambitions
 
-- [x] The Verge style
+- [ ] The Verge style
 - [ ] Ubuntu fonts or somethings else (https://www.launchfa.st/features/astro-font)
 - [ ] Fuzzy search FuseJS (https://astro.build/integrations/?search=search) (https://www.fusejs.io/) example: https://github.com/satnaing/astro-paper
 - [ ] Astro embed (https://astro-embed.netlify.app/)
 - [ ] CMS Ready (https://tina.io/)
 - [ ] Google translate (https://www.youtube.com/watch?v=iO6j3SR7U6Q) (https://github.com/yassinedoghri/astro-i18next)
+- [ ] Google Analytics/Other analytics
+- [ ] Text (https://cruip.com/creating-a-sliding-text-animation-with-tailwind-css/)
 
 Source: https://github.com/treefarmstudio/astro-minimal-starter
