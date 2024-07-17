@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/Post.astro
-title: Uhuh 3
+title: Example Blog
 description: This is an example blog post
 publishDate: Saturday, July 31 2021
 author: "Jaydan Urwin"

@@ -29,9 +29,7 @@ I’m using an extension to make it seamlessly and it’s called Vimium and it�
 
 ## Getting creative with tags
 
-asasfsdfsddfdsfd
 Whenever I need to save a bookmark a website I need come up with severals words (tags) to get back whenever I need to visit the website again, in general I come up with some random words the correspond to the website itself. For example we have a website talking about The performance of NTFS on Windows. [Over here](https://github.com/Microsoft/WSL/issues/873#issuecomment-425272829)
-asfsdgfsdgfsdgsdfgsdfgsdfgsdfgsafgsafdgasgsagsadfgsagsgsdgsddgasg
 
 ## My experience
 

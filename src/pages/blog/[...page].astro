@@ -4,7 +4,7 @@ import Container from '../../components/Container.astro';
 import BlogPostPreview from '../../components/BlogPostPreview.astro';
 import Paginator from '../../components/Paginator.astro'
 import Navbar from "../../components/Navbar.astro";
-  
+import Footercard from "../../components/FooterCard.astro";
   
 export async function getStaticPaths({paginate}) {
 
@@ -48,6 +48,7 @@ const { page, headings } = Astro.props;
       </section>
     </article>
     <Paginator page={page}/>
+    <Footercard />
   </Container>
 </Layout>
 
