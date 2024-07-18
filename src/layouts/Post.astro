@@ -61,14 +61,35 @@ const { frontmatter } = Astro.props;
       margin: 10px 0px 10px 0px;
     }
 
+    code {
+    background-color: #eff1f5;
+}
+
+@media (prefers-color-scheme: dark) {
+  code {
+    background-color: #282a36;
+    color: white;
+}
+}
+
+    h1 {
+      margin-block: 1em 0;
+      padding-block-end: 0.2em;
+      border-inline-start: 4px solid var(--color-accent);
+      padding-inline-start: var(--sp-s);
+      line-height: 1.4;
+      font-size: 2rem;
+      text-decoration: underline;
+    } 
+
     h2 {
       margin-block: 1em 0;
       padding-block-end: 0.2em;
       border-inline-start: 4px solid var(--color-accent);
       padding-inline-start: var(--sp-s);
       line-height: 1.4;
-      font-size: 1.6rem;
-      text-decoration: underline;
+      font-size: 1.4rem;
+
     } 
 
     h3 {
@@ -76,9 +97,29 @@ const { frontmatter } = Astro.props;
       padding-block-end: 0.2em;
       border-inline-start: 4px solid var(--color-accent);
       padding-inline-start: var(--sp-s);
-      line-height: 1.4;
-      font-size: 1.6rem;
-      text-decoration: underline;
+      line-height: 1.2;
+      font-size: 1.2rem;
+
+    }
+
+    h4 {
+      margin-block: 1em 0;
+      padding-block-end: 0.2em;
+      border-inline-start: 4px solid var(--color-accent);
+      padding-inline-start: var(--sp-s);
+      line-height: 1;
+      font-size: 1.2rem;
+
+    }
+
+    h5 {
+      margin-block: 1em 0;
+      padding-block-end: 0.2em;
+      border-inline-start: 4px solid var(--color-accent);
+      padding-inline-start: var(--sp-s);
+      line-height: 1;
+      font-size: 1.2rem;
+
     } 
     }
   }
