@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/Post.astro
 title: "Behind the scenes"
-publishDate: Saturday, November 30 2023
-description: Really?
+publishDate: "November 16 2023"
+description: Behind the scenes
 image: "/assets/herosocial.jpg"
 alt: Trees in the mountains asdasdsadasdasdasdsasdasdasdssadsadsasdsddsdddddddddddddd
 ---
