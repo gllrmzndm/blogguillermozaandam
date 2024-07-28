@@ -23,8 +23,11 @@ const { post } = Astro.props;
       <p>{post.description}</p>
       <time class="publish-date">{post.publishDate}</time>
     </div>
-    <figure class="">
-      <img src={post.image} alt={post.alt} />
+    <figure class="max-h-80">
+      <a href={post.url}>
+        <img class="object-fill" src={post.image} alt={post.alt} />
+      </a>
+      </a>
     </figure>
   </div>
 </article>
