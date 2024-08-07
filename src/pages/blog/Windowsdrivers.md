@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/Post.astro
 title: "Windows Drivers"
-publishDate: "November 30 2023"
-description: "Importing and exporting Windows Drivers"
-image: "/assets/W11.jpg"
+publishDate: "July 13 2024"
+description: "Easy im- and import of drivers"
+image: "/assets/Windowsdrivers.jpg"
 alt: 
 ---
 
