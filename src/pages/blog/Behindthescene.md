@@ -64,6 +64,8 @@ Intel Nuc and raspberry pi are the servers.
 
 ### Peripherals
 
+![fedoraimage](/assets/behindthescene/Guillermo's_Peripherals.png)
+
 - Microsoft Pro Intellimouse Shadow White
 - Microsoft Pro Intellimouse Shadow Black
 - Logitech MX Master 3
@@ -113,6 +115,9 @@ For the example <kbd>Ctrl</kbd> + <kbd>SHIFT</kbd> **Windows Terminal**
 
 ### Fedora (Linux it's so much more than that.)
 
+![fedoraimage](/assets/behindthescene/fedora_guillermo.png)
+
+public/assets/behindthescene/fedora_guillermo.png
 Main OS across all my devices, one of the trikier Linux distributions in my opinion, especially SELLinux and DNF
 From top of my head and better defaults then Ubuntu:
 

@@ -7,7 +7,7 @@ image: "/assets/RHEL.jpg"
 alt: 
 ---
 
-# Intro
+## Intro
 
 Everything from the RHELRHCSA book that I've learned is in my repository.
 
