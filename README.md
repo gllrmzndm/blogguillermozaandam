@@ -36,7 +36,10 @@
 - [ ] Fuzzy search FuseJS (https://astro.build/integrations/?search=search) (https://www.fusejs.io/) example: https://github.com/satnaing/astro-paper
 - [ ] Astro embed (https://astro-embed.netlify.app/)
 - [ ] i18n translator
-- [ ] Styling (The verge style?)
+- [ ] Tags
+
+- [ ] Styling
+- [ ] Hyperlinks
 
 
 ---
