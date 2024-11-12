@@ -1,6 +1,7 @@
 ---
 import BaseHead from "../components/BaseHead.astro";
 import type { Props as BaseHeadProps } from "../components/BaseHead.astro";
+import { GoogleAnalytics } from 'astro-google-analytics';
 
 export interface Props {
   seo?: BaseHeadProps;
@@ -11,6 +12,7 @@ const { seo } = Astro.props;
 
 <html lang="en">
   <head>
+    <GoogleAnalytics id="G-MB2SGCT5SG" />
     <BaseHead {...seo} />
     <slot name="head-bottom" />
   </head>
