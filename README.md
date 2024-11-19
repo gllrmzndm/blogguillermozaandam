@@ -37,6 +37,7 @@
 - [ ] Astro embed (https://astro-embed.netlify.app/)
 - [ ] i18n translator
 - [ ] Tags
+- [ ] Image have to be improved (https://docs.astro.build/en/guides/images/#display-optimized-images-with-the-image--component)
 
 - [ ] Styling
 - [ ] Hyperlinks

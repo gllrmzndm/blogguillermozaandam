@@ -1,6 +1,5 @@
 import { defineConfig } from "astro/config"; // import lit from '@astrojs/lit';
 
-
 import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 import mdx from "@astrojs/mdx";
@@ -10,25 +9,27 @@ import { rehypeHeadingIds } from "@astrojs/markdown-remark";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import { astroImageTools } from "astro-imagetools";
 
+import compressor from "astro-compressor";
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://blogguillermozaandam.nl",
   base: "",
-
   image: {
     domains: ["astro.build"],
-    remotePatterns: [{ protocol: "https" }],
+    remotePatterns: [{
+      protocol: "https"
+    }]
   },
-
-  integrations: [mdx(), sitemap(), tailwind(), [astroImageTools]],
+  integrations: [mdx(), sitemap(), tailwind(), [astroImageTools], compressor({ gzip: true, brotli: false })],
   markdown: {
-    remarkPlugins: [
-      [remarkToc, { heading: "(table[ -]of[ -])?contents?|toc", maxDepth: 3 }],
-    ],
-    rehypePlugins: [
-      rehypeSlug,
-      [rehypeAutolinkHeadings, { behavior: "prepend" }],
-    ],
+    remarkPlugins: [[remarkToc, {
+      heading: "(table[ -]of[ -])?contents?|toc",
+      maxDepth: 3
+    }]],
+    rehypePlugins: [rehypeSlug, [rehypeAutolinkHeadings, {
+      behavior: "prepend"
+    }]],
     syntaxHighlight: "shiki",
     shikiConfig: {
       // Choose from Shiki's built-in themes (or add your own)
@@ -38,7 +39,7 @@ export default defineConfig({
       // See note below for using dual light/dark themes
       themes: {
         light: "catppuccin-latte",
-        dark: "dracula",
+        dark: "dracula"
       },
       // Add custom languages
       // Note: Shiki has countless langs built-in, including .astro!
@@ -48,7 +49,7 @@ export default defineConfig({
       wrap: true,
       // Add custom transformers: https://shiki.style/guide/transformers
       // Find common transformers: https://shiki.style/packages/transformers
-      transformers: [],
-    },
-  },
+      transformers: []
+    }
+  }
 });
