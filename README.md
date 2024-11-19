@@ -38,6 +38,7 @@
 - [ ] i18n translator
 - [ ] Tags
 - [ ] Image have to be improved (https://docs.astro.build/en/guides/images/#display-optimized-images-with-the-image--component)
+- [ ] Improve site speed with better image support for both mobile and desktop, specify, choose another filetype and more
 
 - [ ] Styling
 - [ ] Hyperlinks
