@@ -28,7 +28,7 @@
 - [x] Navigate to src/data/site.js and edit to match your site's information.
 - [x] Favicon
 - [x] SEO (already built-in)
-- [ ] Image optimization (https://astro-imagetools-docs.vercel.app/en/usage)
+- [x] Image optimization (https://astro-imagetools-docs.vercel.app/en/usage)
 - [x] Remade image for musicplayer (Vehicle audio)
 - [ ] Google Analytics
 - [x] Social cards (https://github.com/jonasmerlin/astro-seo) (https://docs.dummyapi.online/guides/astro-social-cards/)
