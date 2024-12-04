@@ -13,6 +13,9 @@ import compressor from "astro-compressor";
 
 // https://astro.build/config
 export default defineConfig({
+  devToolbar: {
+    enabled: false
+  },
   site: "https://blogguillermozaandam.nl",
   base: "",
   image: {
