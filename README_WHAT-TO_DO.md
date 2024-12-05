@@ -27,13 +27,14 @@
 - [x] RSS feed
 - [x] Remade image for musicplayer (Vehicle audio)
 - [x] Favicon
+- [x] Make website faster
 
 - [x] Open Graph/Social cards (https://github.com/jonasmerlin/astro-seo) (https://docs.dummyapi.online/guides/astro-social-cards/) (https://github.com/shepherdjerred/astro-opengraph-images) (https://astro.build/integrations/)
 - [x] About me
 - [x] Home
 - [x] Introduction
 - [x] Pagination button
-- [ ] Update base and site Astro.config.mjs
+- [x] Update base and site Astro.config.mjs
 
 - [x] Styling
   - [x] Rounded corners
