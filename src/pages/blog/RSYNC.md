@@ -9,9 +9,6 @@ alt:
 
 rsync -- a fast, versatile, remote (and local) file-copying tool
 
-Rsync is a fast and extraordinarily versatile file copying tool. It can copy locally, to/from another host over any remote shell, or to/from a remote rsync daemon. It offers a large number of options that control every aspect of its behavior and permit very flexible specification of the set of files to be copied. It is famous for its delta-transfer algorithm, which reduces the amount of data sent over the network by sending only the differences between the source files and the existing files in the destination. Rsync is widely used for backups and mirroring and as an improved copy command for everyday use.
-
-Rsync finds files that need to be transferred using a lqquick checkrq algorithm (by default) that looks for files that have changed in size or in last-modified time. Any changes in the other preserved attributes (as requested by options) are made on the destination file directly when the quick check indicates that the file's data does not need to be updated.
 
 Some of the additional features of rsync are:
 
@@ -23,14 +20,13 @@ Some of the additional features of rsync are:
 - pipelining of file transfers to minimize latency costs
 - support for anonymous or authenticated rsync daemons (ideal for mirroring)
 
-!!! note
-    
-    Rsync copies files either to or from a remote host, or locally on the current host (it does not support copying files between two remote hosts).
-    More info at: https://linux.die.net/man/1/rsync
+
+Rsync copies files either to or from a remote host, or locally on the current host (it does not support copying files between two remote hosts).
+More info at: https://linux.die.net/man/1/rsync
 
 ---
 
-# Story
+## Story
 After many back-up solutions, I've found the best one that suits my needs.
 One that copy the "raw" files instead of making of compressing it with non-standard tools. (my assumption) so when I need to get those files back, I can open the File Explorer and copy it right back, without installing the back-up program itself.
 
@@ -49,6 +45,7 @@ rsync -avhp --exclude-from="/home/guillermo/rsyncexclude.txt" /home/guillermo/ /
 The reason why I increase verbosity is to exclude files and folders I don't need back-up. I don't need to back-up `.cache` so that directory is going on the exclude list.
 
 And also it's easier to keep up which files and directories to exclude instead of typing everything in the terminal emulator.
+
 ### Rsyncexclude.txt
 
 An example what to exclude:
@@ -84,6 +81,8 @@ You can copy the command or copy the command in a file.
 ﻿rsync -ahvp --exclude-from="/cygdrive/c/Users/guill/rsyncexclude.txt" "/cygdrive/c/Users/guill/" "/cygdrive/D/GUILLERMO_LATEST"
 ```
 
+--
+
 ### Rsyncexclude.txt (Windows)
 
 An example what to exclude:
@@ -108,5 +107,3 @@ VirtualBox VMs/
 [0] [What is archive mode in Rsync](https://serverfault.com/questions/141773/what-is-archive-mode-in-rsync)
 
 Simple and stupid, but it works flawlessly, no time to waste.
-
-!!! success "Done"
