@@ -28,6 +28,8 @@
 - [x] Remade image for musicplayer (Vehicle audio)
 - [x] Favicon
 - [x] Make website faster
+- [x] Make website faster 2
+- [ ] Astro base for deployment on server (https://docs.astro.build/en/reference/configuration-reference/#base)
 
 - [x] Open Graph/Social cards (https://github.com/jonasmerlin/astro-seo) (https://docs.dummyapi.online/guides/astro-social-cards/) (https://github.com/shepherdjerred/astro-opengraph-images) (https://astro.build/integrations/)
 - [x] About me
