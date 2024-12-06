@@ -3,7 +3,7 @@ layout: ../../layouts/Post.astro
 title: "Microsoft Deployment Toolkit"
 publishDate: "July 15 2024"
 description: "Project for some company"
-image: "/src/images/blogimages/s2022.jpg"
+image: "assets/w10.jpg"
 alt: 
 ---
 

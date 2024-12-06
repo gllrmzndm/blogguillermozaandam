@@ -3,7 +3,7 @@ layout: ../../layouts/Post.astro
 title: "RHELRHCSA"
 publishDate: "July 16 2024"
 description: "Miscellaneous  things from RHELRHCSA"
-image: "/src/images/blogimages/rhel.jpg"
+image: "/assets/rhel.jpg"
 alt: 
 ---
 

@@ -3,7 +3,7 @@ layout: ../../layouts/Post.astro
 title: "Passwordless SSH"
 publishDate: "July 14 2024"
 description: "SSH Windows to Linux"
-image: "./src/images/s2022.jpg"
+image: "/assets/w11.jpg"
 alt: 
 ---
 
