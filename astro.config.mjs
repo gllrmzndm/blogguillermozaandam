@@ -17,7 +17,7 @@ export default defineConfig({
     enabled: false
   },
   site: "https://blogguillermozaandam.nl",
-  base: "",
+  base: "/",
   image: {
     domains: ["astro.build"],
     remotePatterns: [{
