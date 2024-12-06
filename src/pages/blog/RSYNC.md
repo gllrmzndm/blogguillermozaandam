@@ -3,7 +3,7 @@ layout: ../../layouts/Post.astro
 title: "Rsync back-ups"
 publishDate: "November 13 2023"
 description: "Easy Rsync back-ups"
-image: "/src/images/blogimages/pwsh.jpg"
+image: "../src/images/blogimages/pwsh.jpg"
 alt: 
 ---
 

@@ -3,7 +3,7 @@ layout: ../../layouts/Post.astro
 title: "Tailwind autoformat"
 publishDate: "July 16 2024"
 description: "Easily formatting Tailwind classes"
-image: "/src/images/blogimages/tailwind.jpg"
+image: "./src/images/blogimages/tailwind.jpg"
 alt: 
 ---
 
