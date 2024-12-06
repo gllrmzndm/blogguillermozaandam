@@ -3,7 +3,7 @@ layout: ../../layouts/Post.astro
 title: "Sticky IP Address Guest VMS"
 publishDate: "July 16 2024"
 description: "Sticky IP adress Linux based VMS"
-image: "assets/s2022.jpg"
+image: "/assets/s2022.jpg"
 alt: 
 ---
 
