@@ -3,7 +3,7 @@ layout: ../../layouts/Post.astro
 title: "No password SSH Windows"
 publishDate: "November 13 2023"
 description: "Passwordless SSH Windows"
-image: "./src/images/blogimages/S2022.jpg"
+image: "/src/images/blogimages/S2022.jpg"
 alt: 
 ---
 

@@ -35,6 +35,7 @@
 - [x] Introduction
 - [x] Pagination button
 - [x] Update base and site Astro.config.mjs
+- [ ] Sitemap XML
 
 - [x] Styling
   - [x] Rounded corners
