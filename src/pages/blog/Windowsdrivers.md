@@ -4,6 +4,7 @@ title: "Windows Drivers"
 publishDate: "July 13 2024"
 description: "Easy im- and import of drivers"
 image: "/images/blogimages/Windowsdrivers.jpg"
+cover: "/src/images/blogimages/Windowsdrivers.jpg"
 alt: 
 ---
 
