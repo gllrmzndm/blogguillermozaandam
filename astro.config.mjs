@@ -24,7 +24,7 @@ export default defineConfig({
       protocol: "https"
     }]
   },
-  integrations: [mdx(), sitemap(), tailwind(), [astroImageTools], compressor({ gzip: true, brotli: false })],
+  integrations: [mdx(), sitemap(), tailwind(), [astroImageTools], compressor({ gzip: false, brotli: true })],
   markdown: {
     remarkPlugins: [[remarkToc, {
       heading: "(table[ -]of[ -])?contents?|toc",
