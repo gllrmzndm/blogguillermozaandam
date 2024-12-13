@@ -17,11 +17,11 @@ export default defineConfig({
     build: {
     format: "file",
   },
-  integrations: [pagefind()],
   
   devToolbar: {
     enabled: false
   },
+
   site: "https://blogguillermozaandam.nl",
   base: "",
   image: {
@@ -30,7 +30,7 @@ export default defineConfig({
       protocol: "https"
     }]
   },
-  integrations: [mdx(), sitemap(), tailwind(), [astroImageTools], compressor({ gzip: false, brotli: true })],
+  integrations: [mdx(), sitemap(), tailwind(), pagefind(), [astroImageTools], compressor({ gzip: false, brotli: true })],
   markdown: {
     remarkPlugins: [[remarkToc, {
       heading: "(table[ -]of[ -])?contents?|toc",
