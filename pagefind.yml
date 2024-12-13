@@ -1,0 +1,3 @@
+# pagefind.yml
+site: dist
+glob: "**/*.{html}"

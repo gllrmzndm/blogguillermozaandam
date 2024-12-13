@@ -8,11 +8,17 @@ import rehypeSlug from "rehype-slug";
 import { rehypeHeadingIds } from "@astrojs/markdown-remark";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import { astroImageTools } from "astro-imagetools";
+import pagefind from "astro-pagefind";
 
 import compressor from "astro-compressor";
 
 // https://astro.build/config
 export default defineConfig({
+    build: {
+    format: "file",
+  },
+  integrations: [pagefind()],
+  
   devToolbar: {
     enabled: false
   },

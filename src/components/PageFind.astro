@@ -1,0 +1,26 @@
+---
+import Search from "astro-pagefind/components/Search";
+---
+
+    <!-- Search component https://github.com/shishkin/astro-pagefind -->
+    <div class="rounded-box overflow-hidden">
+      <Search id="search" className="pagefind-ui" uiOptions={{ showImages: false,  pageSize: 5, }} />
+      
+    <style is:global>
+      .pagefind-ui {
+        --pagefind-ui-text: black;
+        background-color: #ffffff86;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .pagefind-ui {
+        --pagefind-ui-primary: #3b3b3b;
+        --pagefind-ui-text: #fffcfc;
+        --pagefind-ui-background: #152028;
+        background-color: #15202833;
+        --pagefind-ui-border: #152028;
+        margin: 1px 3px 1px 1px;
+        }
+    }
+  </style>
+    </div>
