@@ -9,6 +9,7 @@ import { rehypeHeadingIds } from "@astrojs/markdown-remark";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import { astroImageTools } from "astro-imagetools";
 import pagefind from "astro-pagefind";
+import serviceWorker from "astrojs-service-worker";
 
 import compressor from "astro-compressor";
 
@@ -30,7 +31,7 @@ export default defineConfig({
       protocol: "https"
     }]
   },
-  integrations: [mdx(), sitemap(), tailwind(), pagefind(), [astroImageTools], compressor({ gzip: false, brotli: true })],
+  integrations: [mdx(), sitemap(), tailwind(), pagefind(), serviceWorker(), [astroImageTools], compressor({ gzip: false, brotli: true })],
   markdown: {
     remarkPlugins: [[remarkToc, {
       heading: "(table[ -]of[ -])?contents?|toc",

@@ -30,19 +30,22 @@
 - [x] SEO (already built-in)
 - [x] Image optimization (https://astro-imagetools-docs.vercel.app/en/usage)
 - [x] Remade image for musicplayer (Vehicle audio)
-- [ ] Google Analytics
+- [x] Google Analytics
 - [x] Social cards (https://github.com/jonasmerlin/astro-seo) (https://docs.dummyapi.online/guides/astro-social-cards/)
 - [x] RSS feed
-- [ ] Fuzzy search FuseJS (https://astro.build/integrations/?search=search) (https://www.fusejs.io/) example: https://github.com/satnaing/astro-paper
+- [x] Fuzzy search FuseJS (https://astro.build/integrations/?search=search) (https://www.fusejs.io/) example: https://github.com/satnaing/astro-paper
 - [ ] Astro embed (https://astro-embed.netlify.app/)
 - [ ] i18n translator
 - [ ] Tags
-- [ ] Image have to be improved (https://docs.astro.build/en/guides/images/#display-optimized-images-with-the-image--component)
-- [ ] Improve site speed with better image support for both mobile and desktop, specify, choose another filetype and more
+- [x] Image have to be improved (https://docs.astro.build/en/guides/images/#display-optimized-images-with-the-image--component)
+- [x] Improve site speed with better image support for both mobile and desktop, specify, choose another filetype and more
+- [ ] WhatsApp Image
 
-- [ ] Styling
-- [ ] Hyperlinks
-
+- [x] Styling
+  - [x] Rounded corners
+  - [x] Small vertical gap between items (elements) on index page
+  - [x] Markdown layout
+  - [x] Adjust musicplayer
 
 ---
 
