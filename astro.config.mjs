@@ -17,7 +17,9 @@ import compressor from "astro-compressor";
 export default defineConfig({
     site: "https://blogguillermozaandam.nl",
     base: "",
+    output: 'static',
 
+// Integrations
     integrations: [mdx(), sitemap(), tailwind(), pagefind(), serviceWorker(), [astroImageTools], compressor({ gzip: false, brotli: true })],
 
     build: {
