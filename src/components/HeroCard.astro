@@ -1,6 +1,6 @@
 ---
 import { Image } from 'astro:assets';
-import heroImage from '/src/images/herovideo.webp';
+import heroImage from '/src/assets/images/herovideo.webp';
 ---
 
 <div class="hero min-h-screen rounded-box overflow-hidden">
@@ -9,7 +9,7 @@ import heroImage from '/src/images/herovideo.webp';
   
     <Image class="min-w-full min-h-full object-cover" src={heroImage} decoding="async" loading="lazy" alt="A description of my image." />
      <!-- <video class="min-w-full min-h-full object-cover" autoplay="true" muted="true" loop="true" width="100%" height="100%" preload="none" poster="/src/images/hero.jpg" transition:persist>
-      <source src="/src/images/herovideo.webp" type="video/webp">
+      <source src="/src/assets/images/herovideo.webp" type="video/webp">
     </video> -->
 
   <div class="hero-overlay bg-opacity-70 rounded-box"></div>
