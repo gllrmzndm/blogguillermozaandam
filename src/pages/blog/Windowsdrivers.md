@@ -3,12 +3,11 @@ layout: ../../layouts/Post.astro
 title: "Windows Drivers"
 publishDate: "July 13 2024"
 description: "Easy im- and import of drivers"
-image: "/src/assets/windowsdrivers.webp"
+image: "/assets/windowsdrivers.jpg"
 alt: 
 
 ---
 
-![A starry night sky.](/src/assets/windowsdrivers.webp)
 
 I needed a way to drivers from this particular HP Probook 455 G9 and this was the best solution to achieve this. `pnputil` can be launched from almost anywhere, it is built into Windows directly. It's stored in ```windir%\system32```.
 

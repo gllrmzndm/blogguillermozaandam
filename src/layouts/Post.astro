@@ -1,4 +1,6 @@
 ---
+// The post itself NOT the index page of MDX files
+
 import Layout from './Base.astro';
 import Container from "../components/Container.astro";
 import ArticleSchema from '../components/ArticleSchema.astro';
@@ -9,8 +11,6 @@ const { frontmatter } = Astro.props;
 
 
 ---
-
-<!-- post itself not the index page -->
 
 <Layout seo={frontmatter}>
   <Fragment slot="head-bottom">
