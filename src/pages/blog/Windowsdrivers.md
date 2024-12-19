@@ -3,7 +3,7 @@ layout: ../../layouts/Post.astro
 title: "Windows Drivers"
 publishDate: "July 13 2024"
 description: "Easy im- and import of drivers"
-image: "/windowsdrivers.jpg"
+image: "src/assets/images/blogimages/windowsdrivers.jpg"
 alt: 
 
 ---
