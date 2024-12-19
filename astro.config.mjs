@@ -15,6 +15,11 @@ import compressor from "astro-compressor";
 
 // https://astro.build/config
 export default defineConfig({
+    site: "https://blogguillermozaandam.nl",
+    base: "",
+
+    integrations: [mdx(), sitemap(), tailwind(), pagefind(), serviceWorker(), [astroImageTools], compressor({ gzip: false, brotli: true })],
+
     build: {
     format: "file",
   },
@@ -23,15 +28,13 @@ export default defineConfig({
     enabled: false
   },
 
-  site: "https://blogguillermozaandam.nl",
-  base: "",
   image: {
     domains: ["astro.build"],
     remotePatterns: [{
       protocol: "https"
     }]
   },
-  integrations: [mdx(), sitemap(), tailwind(), pagefind(), serviceWorker(), [astroImageTools], compressor({ gzip: false, brotli: true })],
+  // Markdown
   markdown: {
     remarkPlugins: [[remarkToc, {
       heading: "(table[ -]of[ -])?contents?|toc",
