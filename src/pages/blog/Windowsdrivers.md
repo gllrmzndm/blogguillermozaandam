@@ -8,6 +8,8 @@ alt:
 
 ---
 
+![A starry night sky.](/src/assets/windowsdrivers.webp)
+
 I needed a way to drivers from this particular HP Probook 455 G9 and this was the best solution to achieve this. `pnputil` can be launched from almost anywhere, it is built into Windows directly. It's stored in ```windir%\system32```.
 
 Importing the correct drivers from a laptop important in case you need the exact drivers, but you can’t download them from anywhere or/and you don’t trust other sources the get the drivers. All drivers are imported directly from the computer.
