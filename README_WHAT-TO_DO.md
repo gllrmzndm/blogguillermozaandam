@@ -60,6 +60,7 @@
 
 Future ambitions
 
+- [ ] Better folder structure (https://docs.astro.build/en/basics/project-structure/)
 - [ ] The Verge style
 - [ ] Ubuntu fonts or somethings else (https://www.launchfa.st/features/astro-font)
 - [x] Fuzzy search FuseJS (https://astro.build/integrations/?search=search) (https://www.fusejs.io/) example: https://github.com/satnaing/astro-paper

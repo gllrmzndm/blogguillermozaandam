@@ -10,7 +10,7 @@ import Footercard from "../../components/FooterCard.astro";
   
 export async function getStaticPaths({paginate}) {
 
-  const posts = await Astro.glob('./*.md').then(posts =>
+  const posts = await Astro.glob('./**/*.{md,mdx}').then(posts =>
 	posts
 		.map(({ frontmatter, url }) => ({
       url: url,
