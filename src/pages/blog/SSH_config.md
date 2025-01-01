@@ -51,6 +51,12 @@ And you can use it in- and outside VSCode.
 For example in terminal of your choice, you can do the following command:
 `ssh Server0172` and you will be connected to the server instantly without remembering every IP Address. This will work when you did use [public key authentication](https://www.redhat.com/en/blog/key-based-authentication-ssh).
 
+Don't forget to add your private key to the agent with the commands:
+
+`eval "$(ssh-agent -s)"`
+
+`ssh-add ~/.ssh/id_ed25519`
+
 How to configure key-based authentication for SSH: https://www.redhat.com/en/blog/key-based-authentication-ssh
 
 ---
