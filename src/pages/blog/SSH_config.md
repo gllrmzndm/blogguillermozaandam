@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/Post.astro
 title: "SSH_config"
-publishDate: "Decemeber 31 2024"
+publishDate: "January 1 2024"
 description: "Do you remember which server is 192.168.255.187 or 192.168.122.58?"
 image: "/assets/ssh_config/ssh_cover_image.jpg"
 alt: "stock image, purple background with a laptop"
