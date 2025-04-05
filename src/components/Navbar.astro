@@ -4,16 +4,16 @@ import heroImage from '/src/images/nav_hero.jpg';
 import PageFind from "../components/PageFind.astro";
 ---
   
-  <div class="rounded-box bg-purple-700 hover:rounded-box hover:bg-purple-800 duration-1000">
+  <div class="bg-[url(/heat_nav.webp)] bg-purple-700 hover:bg-purple-800 rounded-box hover:rounded-box duration-1000">
     
-    <div class="navbar rounded-box text-white z-100">
+    <div class="z-100 rounded-box text-white navbar">
       <!-- // navbar mobile layout -->
       <div class="navbar-start">
         <div class="dropdown">
-          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+          <div tabindex="0" role="button" class="lg:hidden btn btn-ghost">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
+              class="w-5 h-5"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -27,7 +27,7 @@ import PageFind from "../components/PageFind.astro";
           </div>
           <ul
             tabindex="0"
-            class="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow bg-gradient-to-r from-purple-800 via-blue-700 to-pink-800 text-white dark:bg-gradient-to-r dark:from-purple-600 dark:via-gray-900 dark:to-pink-600"
+            class="z-[1] bg-gradient-to-r dark:bg-gradient-to-r from-purple-800 dark:from-purple-600 via-blue-700 dark:via-gray-900 to-pink-800 dark:to-pink-600 shadow mt-3 p-2 rounded-box w-52 text-white menu menu-sm dropdown-content"
           >
             <li><a href="/">Home</a></li>
             <li><a href="/blog">Blog</a></li>
@@ -36,11 +36,11 @@ import PageFind from "../components/PageFind.astro";
         </div>
 
         <!-- // navbar desktop layout -->
-        <a href="/" class="btn btn-ghost text-xl"><img src="/favicon.png" width="32" height="32"></img>Guillermo Zaandam </a>
+        <a href="/" class="text-xl btn btn-ghost"><img src="/favicon.png" width="32" height="32"></img>Guillermo Zaandam </a>
       </div>
-      <div class="navbar-center hidden lg:flex">
+      <div class="hidden lg:flex navbar-center">
         <ul
-          class="menu menu-horizontal px-1 font-extrabold uppercase tracking-widest"
+          class="px-1 font-extrabold uppercase tracking-widest menu menu-horizontal"
         >
           <li><a href="/">Home</a></li>
           <li><a href="/blog">Blog</a></li>
